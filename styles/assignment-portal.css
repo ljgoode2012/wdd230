@@ -6,7 +6,7 @@ body {
     margin: 0 auto;
 }
 header {
-    background-color: #009FB7;
+    background-color: #008194;
     display: grid;
     grid-template: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -50,8 +50,7 @@ ul{
 }
 footer{
     font-weight: 600;
-    font-size: 1.2em;
-    background-color: #009FB7;
+    background-color: #008194;
     color: white;
     padding: 30px;
 }
