@@ -1,0 +1,17 @@
+@media (min-width:64em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    #visual-grid {
+        grid-column: 1/2;
+    }
+    #hicks-grid {
+        grid-column: 2/3;
+    }
+    #white-space-grid {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+}
