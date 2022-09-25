@@ -1,4 +1,7 @@
 @media (min-width:64em) {
+    body{
+        font-size: 22px;
+    }
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
