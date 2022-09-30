@@ -1,0 +1,41 @@
+body {
+    max-width: 1600px;
+    font-size: 24px;
+    font-family: Quicksand, "Open Sans", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+h1 {
+    font-family: "Nunito Sans", "Open Sans", sans-serif;
+    background-color: #FDB887;
+    font-size: 3em;
+}
+h2 {
+    background-color: #033B4F;
+    color: white;
+    font-size: 2em;
+}
+p {
+    background-color: #CCE1CF;
+}
+table, td {
+    font-size: 1.5em;
+    border: 3px #033B4F;
+    border-style: solid;
+}
+td{
+    padding: 8px;
+}
+table tr:nth-child(1) td:nth-child(1){
+    background-color: #033B4F;
+    color: white;
+
+}
+table tr:nth-child(1) td:nth-child(2){
+    background-color: #CCE1CF;
+
+}
+table tr:nth-child(1) td:nth-child(3){
+    background-color: #FDB887;
+
+}
