@@ -94,8 +94,8 @@ img {
 .card-img {
     box-shadow: 0px 3px 15px darkgray;
 }
-#Sitemap {
-    max-width: 100%;
+#logo {
+    margin: auto;
 }
 ul {
     list-style: none;
@@ -124,6 +124,9 @@ ul {
     }
     #grace {
         grid-column: 2/3;
+    }
+    #Sitemap {
+        max-width: 100%;
     }
 }
 
