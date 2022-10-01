@@ -61,6 +61,11 @@ td {
 table {
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    overflow-x: auto;
+}
+#color-table{
+    overflow-x: auto;
 }
 table tr:nth-child(1) td:nth-child(1){
     background-color: #033B4F;
@@ -90,7 +95,7 @@ img {
     box-shadow: 0px 3px 15px darkgray;
 }
 #Sitemap {
-    max-width: 900px;
+    max-width: 100%;
 }
 ul {
     list-style: none;
@@ -132,5 +137,8 @@ ul {
     }
     h3 {
         font-size: 1.5rem;
+    }
+    #Sitemap {
+        max-width: 900px;
     }
 }
