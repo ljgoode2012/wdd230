@@ -1,41 +1,131 @@
 body {
-    max-width: 1600px;
-    font-size: 24px;
+    max-width: 100%;
+    font-size: 16px;
     font-family: Quicksand, "Open Sans", sans-serif;
     text-align: center;
     margin: 0 auto;
+    line-height: 1.5rem;
+}
+header{
+    background-color: #CCE1CF;
+}
+nav ul {
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul li {
+    margin: 16px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
 }
 h1 {
     font-family: "Nunito Sans", "Open Sans", sans-serif;
     background-color: #FDB887;
-    font-size: 3em;
+    font-size: 2rem;
+    padding: 24px;
+    line-height: 2.2rem;
 }
 h2 {
+    font-family: "Nunito Sans", "Open Sans", sans-serif;
     background-color: #033B4F;
-    color: white;
-    font-size: 2em;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    padding: 16px;
+}
+h3 {
+    padding: 16px;
+    background-color: #E0DEE3;
+    font-size: 1rem;
+}
+section {
+    background-color: #E0DEE3;
+     
 }
 p {
-    background-color: #CCE1CF;
+    padding: 16px;
 }
 table, td {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     border: 3px #033B4F;
     border-style: solid;
 }
-td{
+td {
     padding: 8px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
 }
 table tr:nth-child(1) td:nth-child(1){
     background-color: #033B4F;
     color: white;
-
 }
 table tr:nth-child(1) td:nth-child(2){
     background-color: #CCE1CF;
-
 }
 table tr:nth-child(1) td:nth-child(3){
     background-color: #FDB887;
+}
+table tr:nth-child(1) td:nth-child(4){
+    background-color: #E0DEE3;
+}
+table tr:nth-child(1) td:nth-child(5){
+    background-color: #FFFFFF;
+}
+footer {
+    background-color: #CCE1CF;
+    padding: 16px;
+}
+img {
+    max-width: 300px;
+    margin: 24px;
+}
+.card-img {
+    box-shadow: 0px 3px 15px darkgray;
+}
+ul {
+    list-style: none;
+    padding: 16px;
+}
 
+@media (min-width:32.5em) {
+    body {
+        font-size: 18px;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    nav ul li {
+        margin: 24px;
+    }
+    #personas {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 16px;
+        grid-column-gap: 16px;
+        align-items: center;
+    }
+    #jorge {
+        grid-column: 1/2;
+    }
+    #grace {
+        grid-column: 2/3;
+    }
+}
+
+@media (min-width:64em) {
+    body {
+        font-size: 24px;
+    }
+    nav ul li a {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
 }
