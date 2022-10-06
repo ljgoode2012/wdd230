@@ -4,6 +4,8 @@ body {
     font-family: Quicksand, "Open Sans", sans-serif;
     margin: 0 auto;
     line-height: 1.5rem;
+    align-items: center;
+    text-align: center;
 }
 header{
     background-color: #CCE1CF;
@@ -67,29 +69,38 @@ nav ul.open {
 header section h1 {
     font-size: 1rem;
     margin: 0;
+    text-align: left;
 }
 header section h2 {
     font-size: .75rem;
     margin: 0;
     padding-right: 1rem;
+    text-align: left;
 }
 header section {
     align-self: center;
     grid-column: 2/3;
 }
-header p {
+.date {
     grid-column: 2/4;
     grid-row: 2/3;
-    border-style: solid;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0,0,0,.1);
+}
+main div {
     border-color: black;
+    border-style: solid;
 }
 img {
     max-width: 300px;
-    margin: 24px;
+    margin: 1em;
 }
 footer {
     background-color: #CCE1CF;
     text-align: center;
+    font-size: 1rem;
 }
 footer img {
     margin-bottom: 0;
@@ -100,4 +111,14 @@ footer p:first-of-type span {
 }
 footer p:last-of-type {
     padding-bottom: 1rem;
+}
+@media only screen and (max-width: 32.5em) {
+    .JoinSection {
+        display: none;
+    }
+}
+@media only screen and (max-width: 64em) {
+    .spotlight3 {
+        display: none;
+    }
 }

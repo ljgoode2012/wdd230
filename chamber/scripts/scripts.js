@@ -14,3 +14,9 @@ dynCopyright.innerHTML = `${year}`;
 
 const timestamp = `Last Updated: ${document.lastModified}`;
 document.querySelector(".lastMod").textContent = timestamp;
+
+const datefield = document.querySelector(".date");
+
+const fulldate = new Intl.DateTimeFormat("en-US", {dateStyle: "full"}).format(date);
+datefield.innerHTML = `${fulldate}`
+console.log("${fulldate}")

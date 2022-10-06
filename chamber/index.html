@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madison Chamber of Commerce</title>
-    <meta name="description" content="This is the Madison chamber of commerce homepage.">
+    <meta name="description" content="This is the Madison chamber of commerce homepage. It provides information on events, spotlighted businesses, local business news, and contact information relating to the Madison Chamber of Commerce.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="styles/normalize.css">
@@ -23,8 +23,8 @@
                 <h2 class="hometitles">Chamber of Commerce</h2>
             </section>
             <div id="social-media">
-                <img id="facebookLogo" href="https://icons8.com/" src="/chamber/images/facebooklogo.png" alt="facebook logo">
-                <img id="linkedinLogo" href="https://icons8.com/" src="/chamber/images/linkedinlogo.png" alt="linkedin logo">
+                <a href="https://www.facebook.com/"><img id="facebookLogo" src="images/facebooklogo.png" alt="facebook logo"></a>
+                <a href="https://www.linkedin.com/"><img id="linkedinLogo" src="images/linkedinlogo.png" alt="linkedin logo"></a>
             </div>
             <div id="hamburgerBtnBox">
                 <button id="hamburgerBtn">&#9776</button>
@@ -39,48 +39,48 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <p>Date</p>
+        <h3 class="date"></h3>
     </header>
     <main>
-        <div>
+        <div class="hero">
             <img src="/chamber/images/downtowndistrict.jpg" alt="hero-image">
-            <h3>Welcome to Madison! Join our Chamber of Commerce now!</h3>
+            <h4>Welcome to Madison! Join our Chamber of Commerce now!</h4>
             <button>Join</button>
         </div>
-        <div>
+        <div class="event">
             <section>
                <p>Event 1 details</p>
                <img src="/chamber/images/christmasfestival.jpg" alt="Christmas tree and christmas lights on buildings">
             </section>
-            <section>
-                <p>Event 2 details</p>
-                <img src=" " alt="event 2">
-            </section>
-            <section>
-                <p>Event 3 details</p>
-                <img src=" " alt="event 3">
-            </section>
         </div>
-        <div>
+        <div class="weather">
             <p>weather portion here</p>
         </div>
-        <div>
+        <div class="news">
             <p>News Release</p>
         </div>
-        <div>
+        <div class="spotlights">
             <section>Spotlight 1</section>
             <section>Spotlight 2</section>
+            <section class="spotlight3">Spotlight 3</section>
         </div>
+        <div class="JoinSection">Join Section</div>
     </main>
     <footer>
-        <img src="images/madisonlogo.png" alt="Chamber of Commerce logo">
-        <p><span>Madison Chamber of Commerce</span></br>426 Main Street</br>Mentor, Ohio 44060</p>
-        <p>555-5555</br>demo@madisonchamber.com</p>
-        <p><iconify-icon icon="ic:baseline-pin-drop"></iconify-icon> Location Map</p>
-        <p>&copy <span class="copyright"></span> Madison Chamber of Commerce</p>
-        <p><a href=" ">Site Map</a></p>
-        <p>Lindsey Goode</br>WDD 230 Project</p>
-        <p class="lastMod"></p>
+        <div class="footerflex">
+            <img src="images/madisonlogo.png" alt="Chamber of Commerce logo">
+            <p><span>Madison Chamber of Commerce</span></br>426 Main Street</br>Mentor, Ohio 44060</p>
+            <section>
+                <p>555-5555</br>demo@madisonchamber.com</p>
+                <p><a  href="https://www.google.com/maps/place"><iconify-icon icon="ic:baseline-pin-drop"></iconify-icon> Location Map</a></p>
+            </section>
+        </div>
+        <div class="basefooter">
+            <p>&copy <span class="copyright"></span> Madison Chamber of Commerce</p>
+            <p><a href="/lesson3/index.html">Site Map</a></p>
+            <p>Lindsey Goode | WDD 230 Project | <span class="lastMod"></span></p>
+            
+        </div>
     </footer>
     <script src="scripts/scripts.js"></script>
 </body>
