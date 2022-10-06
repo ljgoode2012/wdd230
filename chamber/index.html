@@ -4,37 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community Chamber of Commerce</title>
-    <meta name="description" content="This is the community chamber of commerce homepage.">
+    <title>Madison Chamber of Commerce</title>
+    <meta name="description" content="This is the Madison chamber of commerce homepage.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
 </head>
 <body>
     <header>
-        <img src="" alt="community chamber logo">
-        <h1>Community Chamber of Commerce</h1>
-        <button>&#9776</button>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <p>Connect with us on social media!</p>
-        <img src="/chamber/images/facebooklogo.png" alt="facebook logo">
-        <img src=" " alt="twitter logo">
-        <img src=" " alt="instagram logo">
+        <div id="grid-container">
+            <img id="chamberlogo" src="/chamber/images/Madisonlogo.png" alt="Madison chamber logo">
+            <section>    
+                <h1 class="hometitles">Madison</h1>
+                <h2 class="hometitles">Chamber of Commerce</h2>
+            </section>
+            <div id="social-media">
+                <img id="facebookLogo" href="https://icons8.com/" src="/chamber/images/facebooklogo.png" alt="facebook logo">
+                <img id="linkedinLogo" href="https://icons8.com/" src="/chamber/images/linkedinlogo.png" alt="linkedin logo">
+            </div>
+            <div id="hamburgerBtnBox">
+                <button id="hamburgerBtn">&#9776</button>
+            </div>
+        </div>
+        <nav>
+            <ul id="primaryNav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <p>Date</p>
     </header>
     <main>
         <div>
-            <img src=" " alt="hero-image">
-            <h2>Welcome to Community! Join our Chamber of Commerce now!</h2>
+            <img src="/chamber/images/downtowndistrict.jpg" alt="hero-image">
+            <h3>Welcome to Madison! Join our Chamber of Commerce now!</h3>
             <button>Join</button>
         </div>
         <div>
             <section>
                <p>Event 1 details</p>
-               <img src=" " alt="event 1">
+               <img src="/chamber/images/christmasfestival.jpg" alt="Christmas tree and christmas lights on buildings">
             </section>
             <section>
                 <p>Event 2 details</p>
@@ -46,20 +62,26 @@
             </section>
         </div>
         <div>
-            <h3>Chamber of Commerce Members</h3>
-            <img src=" " alt="company logo">
-            <img src=" " alt="company logo">
-            <img src=" " alt="company logo">
-            <img src=" " alt="company logo">
-            <img src=" " alt="company logo">
-            <img src=" " alt="company logo">
+            <p>weather portion here</p>
+        </div>
+        <div>
+            <p>News Release</p>
+        </div>
+        <div>
+            <section>Spotlight 1</section>
+            <section>Spotlight 2</section>
         </div>
     </main>
     <footer>
-        <p>Community Chamber of Commerce</br>426 Main Street</br>Mentor, Ohio 44060</p>
-        <p>555-5555</br>demo@communitychamber.com</p>
-        <p>&copy 2022 Community Chamber of Commerce</p>
+        <img src="images/madisonlogo.png" alt="Chamber of Commerce logo">
+        <p><span>Madison Chamber of Commerce</span></br>426 Main Street</br>Mentor, Ohio 44060</p>
+        <p>555-5555</br>demo@madisonchamber.com</p>
+        <p><iconify-icon icon="ic:baseline-pin-drop"></iconify-icon> Location Map</p>
+        <p>&copy <span class="copyright"></span> Madison Chamber of Commerce</p>
         <p><a href=" ">Site Map</a></p>
+        <p>Lindsey Goode</br>WDD 230 Project</p>
+        <p class="lastMod"></p>
     </footer>
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>

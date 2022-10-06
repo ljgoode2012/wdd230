@@ -1,0 +1,103 @@
+body {
+    max-width: 100%;
+    font-size: 16px;
+    font-family: Quicksand, "Open Sans", sans-serif;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+header{
+    background-color: #CCE1CF;
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: 66px auto auto auto;
+    grid-template-rows: 1fr auto;
+}
+#chamberlogo {
+    max-width: 50px;
+    margin: 1rem .5rem;
+    grid-column: 1/2;
+    align-self: center;
+}
+#social-media {
+    grid-column: 3/4;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+#facebookLogo, #linkedinLogo {
+    margin: 0;
+    min-width: 48px;
+    max-width: 50px;
+}
+nav ul {
+    display: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+}
+#hamburgerBtn {
+    margin: 1rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+}
+#hamburgerBtnBox {
+    grid-column: 4/5;
+    text-align: right;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    padding: .8rem 2vw;
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,.2);
+}
+nav ul li.active a {
+    background-color: rgba(0,0,0,.1);
+}
+nav ul.open {
+    display: block;
+}
+header section h1 {
+    font-size: 1rem;
+    margin: 0;
+}
+header section h2 {
+    font-size: .75rem;
+    margin: 0;
+    padding-right: 1rem;
+}
+header section {
+    align-self: center;
+    grid-column: 2/3;
+}
+header p {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    border-style: solid;
+    border-color: black;
+}
+img {
+    max-width: 300px;
+    margin: 24px;
+}
+footer {
+    background-color: #CCE1CF;
+    text-align: center;
+}
+footer img {
+    margin-bottom: 0;
+    max-width: 250px;
+}
+footer p:first-of-type span {
+    font-weight: 600;
+}
+footer p:last-of-type {
+    padding-bottom: 1rem;
+}
