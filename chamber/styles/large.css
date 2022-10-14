@@ -20,4 +20,8 @@
     header p {
         margin: 1rem;
     }
+    .event section img {
+        display: block;
+        margin: auto;
+    }
 }
