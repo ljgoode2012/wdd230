@@ -102,7 +102,7 @@ img{
 }
 .hero-msg {
     background-color: rgb(253, 184, 135, .9);
-    padding: .5rem;
+    padding: 1rem;
     max-width: 60%;
     max-height: 75%;
     grid-row: 1/2;
@@ -217,7 +217,7 @@ img{
 .spotlights {
     margin-bottom: 100px;
 }
-.spotlight1 {
+.spotlight1, .spotlight2 {
     margin: 0 auto 1rem;
     max-width: 80%;
     box-shadow: 0 0 20px black;
