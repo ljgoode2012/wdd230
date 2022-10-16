@@ -20,3 +20,8 @@ const datefield = document.querySelector(".date");
 const fulldate = new Intl.DateTimeFormat("en-US", {dateStyle: "full"}).format(date);
 datefield.innerHTML = `${fulldate}`
 console.log("${fulldate}")
+
+const banner = document.querySelector("#banner");
+const day = date.getDay();
+if (day in [3, 4, 5, 6])
+banner.style.display = "block"

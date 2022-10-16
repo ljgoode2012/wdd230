@@ -7,6 +7,12 @@ body {
     align-items: center;
     text-align: center;
 }
+#banner {
+    padding: 1rem;
+    background-color: #FDB887;
+    font-size: 1.2rem;
+    display: none;
+}
 header{
     background-color: #CCE1CF;
 }
