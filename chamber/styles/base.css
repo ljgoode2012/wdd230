@@ -98,7 +98,7 @@ img{
     grid-template-columns: auto;
     grid-template-rows: auto;
     margin-top: -16px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 .hero-msg {
     background-color: rgb(253, 184, 135, .9);
@@ -161,13 +161,13 @@ img{
     text-align: left;
 }
 .event p {
-    margin: .5rem .5rem 150px
+    margin: .5rem .5rem 50px
 }
 .weather {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 72px auto auto auto;
-    margin: 0 auto 150px;
+    margin: 0 auto 60px;
 }
 .weather h6 {
     background-color: #FDB887;
@@ -212,10 +212,10 @@ img{
     margin: 1rem;
 }
 .news {
-    margin-bottom: 150px;
+    margin-bottom: 60px;
 }
 .spotlights {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .spotlight1, .spotlight2 {
     margin: 0 auto 1rem;
