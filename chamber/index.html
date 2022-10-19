@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
@@ -20,7 +20,7 @@
             <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
         </div>
         <div id="grid-container">
-            <img id="chamberlogo" src="images/madisonlogo.png" alt="Madison chamber logo">
+            <img id="chamberlogo" src="images/madisonlogo.webp" alt="Madison chamber logo">
             <section>    
                 <h1 class="hometitles">Madison</h1>
                 <h2 class="hometitles">Chamber of Commerce</h2>
@@ -46,7 +46,12 @@
     </header>
     <main>
         <div class="hero">
-            <img src="images/downtowndistrict.jpg" alt="hero-image">
+            <picture>
+                <source media="(max-width: 520px)" srcset="images/sample-small.jpg" />
+                <source media="(max-width: 1020px)" srcset="images/sample-medium.jpg" />
+                <source media="(min-width: 1021px)" srcset="images/sample-large.jpg" />
+                <img src="images/sample.jpg" alt="hero-image">
+            </picture>
             <section class="hero-msg">
                 <h4>Welcome to Madison</h4>
                 <button>Join the Chamber</button>
@@ -63,9 +68,9 @@
         <div class="weather">
             <h6>Weather</h6>
             <img src="images/weatherimage.png" alt="clip art of sun and cloud">
-            <p>54&#176;</p>
+            <p><span id="temp">54</span>&#176;</p>
             <h2>Partly Cloudy</h2>
-            <p>Wind Speed: 2.5km/h<br>Wind Chill: N/A</p>
+            <p>Wind Speed: <span id="wSpeed">2.5</span>mph<br>Wind Chill: <span id="wChill"></span></p>
         </div>
         <div class="news">
             <h3>News Release</h3>
@@ -101,7 +106,7 @@
     </main>
     <footer>
         <div class="footerflex">
-            <img src="images/madisonlogo.png" alt="Chamber of Commerce logo">
+            <img src="images/madisonlogo.webp" alt="Chamber of Commerce logo">
             <p><span>Madison Chamber of Commerce</span><br>426 Main Street<br>Mentor, Ohio 44060</p>
             <section>
                 <p>555-5555<br>demo@madisonchamber.com</p>
@@ -116,5 +121,6 @@
         </div>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
