@@ -157,12 +157,14 @@ img{
     z-index: -1;
 }
 .event section h5{
+    color:#FDB887;
     font-size: 1.8rem;
     margin: 1rem;
     text-align: left;
     line-height: 2rem;
 }
 .event section p {
+    color:#FDB887;
     font-size: 1.2rem;
     text-align: left;
 }
