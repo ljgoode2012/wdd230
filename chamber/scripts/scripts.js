@@ -21,7 +21,9 @@ const fulldate = new Intl.DateTimeFormat("en-US", {dateStyle: "full"}).format(da
 datefield.innerHTML = `${fulldate}`
 console.log("${fulldate}")
 
+
 const banner = document.querySelector("#banner");
-const day = date.getDay();
-if (day in [3, 4, 5, 6])
-banner.style.display = "block"
+let day = date.getDay();
+console.log(`day ${day}`)
+if ((day === 1) || (day === 2)) {banner.style.display = "block"}
+else {banner.style.display = "none"}
