@@ -25,7 +25,7 @@
         background-color: #033B4F;
         margin-top: 1rem;
     }
-    .hero img {
+    .hero picture {
         grid-row: 1/2;
         margin-top: 150px;
         margin-bottom: 50px;
