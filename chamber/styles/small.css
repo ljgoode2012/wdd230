@@ -272,3 +272,24 @@ footer p:last-of-type {
         display: none;
     }
 }
+
+/* Discover Page */
+#discover h1 {
+    background-color: #FDB887;
+    padding: 1.5rem;
+}
+figcaption {
+    font-size: .75rem;
+}
+.demographics h2 {
+    background-color: #033B4F;
+    color: white;
+    padding: 1rem;
+    line-height: 2rem;
+}
+.demographics p {
+    margin: 1rem;
+}
+.demographics figure {
+    margin: 1rem;
+}

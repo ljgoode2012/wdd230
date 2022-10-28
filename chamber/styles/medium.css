@@ -112,4 +112,19 @@
         display: flex;
         justify-content: space-evenly;
     }
+    
+    /* Discover Page */
+    #discover {
+        grid-template-columns: 2fr 1fr;
+        margin:auto;
+    }
+    #discover h1{
+        grid-column: 1/3;
+    }
+    discover .img-div {
+        grid-column: 1/2;
+    }
+    .demographics {
+        grid-column: 2/3;
+    }
 }
