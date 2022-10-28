@@ -6,7 +6,7 @@ const x = document.getElementById("hamburgerBtn")
 x.onclick = toggleMenu;
 
 const date = new Date();
-console.log(date)
+
 const year = date.getFullYear();
 
 const dynCopyright = document.querySelector(".copyright");
@@ -19,34 +19,11 @@ const datefield = document.querySelector(".date");
 
 const fulldate = new Intl.DateTimeFormat("en-US", {dateStyle: "full"}).format(date);
 datefield.innerHTML = `${fulldate}`
-console.log("${fulldate}")
+
 
 
 const banner = document.querySelector("#banner");
 let day = date.getDay();
-console.log(`day ${day}`)
+
 if ((day === 1) || (day === 2)) {banner.style.display = "block"}
 else {banner.style.display = "none"}
-
-// lazy loading
-let imagesToLoad = document.querySelectorAll("img[data-src]");
-const loadImages = (image) => {
-    image.setAttribute("src", image.getAttribute("data-src"));
-    image.onload = () => {
-        image.removeAttribute("data-src");
-    }
-}
-
-if ("IntersectionObserver" in window) {
-    const observer = new IntersectionObserver((items, observer) => {
-        items.forEach((item) => {
-            if (item.isIntersecting) {
-                loadImages(item.target);
-                observer.unobserve(item.target);
-            }
-        })
-    })
-    imagesToLoad.forEach((img) => {
-        observer.observe(img);
-    })
-}

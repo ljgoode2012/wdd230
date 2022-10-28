@@ -274,7 +274,7 @@ footer p:last-of-type {
 }
 
 /* Discover Page */
-#discover h1 {
+.discover h1 {
     background-color: #FDB887;
     padding: 1.5rem;
 }
@@ -293,6 +293,13 @@ figcaption {
 .demographics figure {
     margin: 1rem;
 }
-#discover img:hover {
+.discover img:hover {
     box-shadow: 0 0 30px black;
+}
+.visits-display {
+    background-color: #FDB887;
+    color:black;
+    padding: .5rem;
+    font-size: 1.5rem;
+    padding: 1rem;
 }
