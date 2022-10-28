@@ -293,3 +293,6 @@ figcaption {
 .demographics figure {
     margin: 1rem;
 }
+#discover img:hover {
+    box-shadow: 0 0 30px black;
+}
