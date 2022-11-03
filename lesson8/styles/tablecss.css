@@ -3,19 +3,21 @@ body {
     font-size: 16px;
 }
 table {
+    width: 30%;
+    min-width: 15rem;
     margin: 15px auto;
     border: 1px solid black;
     border-collapse: collapse;
 }
 th, td {
-    padding: .5rem;
+    padding: 1rem;
     text-align: center;
     border-left: 1px solid black;
 }
 
 caption {
     caption-side: bottom;
-    padding: .5rem;
+    padding: 1rem;
     font-weight: bold;
     color:#55335B;
 }
