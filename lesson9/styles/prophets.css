@@ -1,0 +1,27 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    max-width: 1600px;
+    margin: auto;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: lightgrey;
+    padding: 1rem;
+}
+section{
+    background-color: lemonchiffon;
+    border: 3px solid goldenrod;
+    margin: 4px;
+}
+img {
+    width: 95%;
+    box-shadow: 0 0 10px black;
+    margin: 4px;
+}
+footer{
+    font-size: 2rem;
+    padding: 2rem;
+}
