@@ -1,0 +1,83 @@
+[
+    {
+        "name":"Liya's Cookies",
+        "address": "987 Sweet Ln",
+        "phoneNumber":"208-555-6548",
+        "email":"demo@liyascookies.com",
+        "websiteURL":"www.liyascookies.com",
+        "imageFile":"chamber/images/cookies.png",
+        "membership":"gold"
+    },
+    {
+        "name":"Cura Mechanics",
+        "address":"354 Booker Ave",
+        "phoneNumber":"208-555-3588",
+        "email":"demo@curamechanics.com",
+        "websiteURL":"www.cura.com",
+        "imageFile":"chamber/images/mechanics.png",
+        "membership":"gold"
+    },
+    {
+        "name":"Hummingbird Sports",
+        "address":"681 Buena Vista Ave",
+        "phoneNumber":"208-555-8521",
+        "email":"demo@hummingbird.com",
+        "websiteURL":"www.hummingbird.com",
+        "imageFile":"chamber/images/sports-outlet.png",
+        "membership":"gold"
+    },
+    {
+        "name":"Blue.Bird Solutions",
+        "address":"357 Canary Rd",
+        "phoneNumber":"208-555-4922",
+        "email":"demo@bluebird.com",
+        "websiteURL":"www.bluebird.com",
+        "imageFile":"chamber/images/blue-bird.png",
+        "membership":"silver"
+    },
+    {
+        "name":"Burchett and Pryor Law Firm",
+        "address":"815 Center St",
+        "phoneNumber":"208-555-6374",
+        "email":"demo@bandplaw.com",
+        "websiteURL":"www.bandplaw.com",
+        "imageFile":"chamber/images/burchett.png",
+        "membership":"gold"
+    },
+    {
+        "name":"Keller Property Management",
+        "address":"114 Mariposa Ave",
+        "phoneNumber":"208-555-6683",
+        "email":"demo@kellerproperty.com",
+        "websiteURL":"www.kellerproperty.com",
+        "imageFile":"chamber/images/keller.png",
+        "membership":"bronze"
+    },
+    {
+        "name":"One Heart Foundation",
+        "address":"1225 Madison Blvd",
+        "phoneNumber":"208-555-1486",
+        "email":"demo@oneheart.org",
+        "websiteURL":"www.oneheart.org",
+        "imageFile":"chamber/images/one-heart.png",
+        "membership":"NP"
+    },
+    {
+        "name":"Rentcar",
+        "address":"1345 Madison Blvd",
+        "phoneNumber":"208-555-3251",
+        "email":"demo@rentcar.com",
+        "websiteURL":"www.rentcar.com",
+        "imageFile":"chamber/images/rent-car.png",
+        "membership":"bronze"
+    },
+    {
+        "name":"Smile Photography",
+        "address":"140 Hastings Way",
+        "phoneNumber":"208-555-5213",
+        "email":"demo@smilephotography.com",
+        "websiteURL":"www.smilephotography.com",
+        "imageFile":"chamber/images/smile.png",
+        "membership":"silver"
+    }
+]

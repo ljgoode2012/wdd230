@@ -41,4 +41,3 @@ function ordinal(n) {
     console.log(v)
     return n + (s[(v-20)%10] || s[v] || s[0]);
 }
-
