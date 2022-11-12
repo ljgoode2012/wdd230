@@ -5,7 +5,7 @@
         "phoneNumber":"208-555-6548",
         "email":"demo@liyascookies.com",
         "websiteURL":"www.liyascookies.com",
-        "imageFile":"chamber/images/cookies.png",
+        "imageFile":"images/cookies.png",
         "membership":"gold"
     },
     {
@@ -14,7 +14,7 @@
         "phoneNumber":"208-555-3588",
         "email":"demo@curamechanics.com",
         "websiteURL":"www.cura.com",
-        "imageFile":"chamber/images/mechanics.png",
+        "imageFile":"images/mechanics.png",
         "membership":"gold"
     },
     {
@@ -23,7 +23,7 @@
         "phoneNumber":"208-555-8521",
         "email":"demo@hummingbird.com",
         "websiteURL":"www.hummingbird.com",
-        "imageFile":"chamber/images/sports-outlet.png",
+        "imageFile":"images/sports-outlet.png",
         "membership":"gold"
     },
     {
@@ -32,7 +32,7 @@
         "phoneNumber":"208-555-4922",
         "email":"demo@bluebird.com",
         "websiteURL":"www.bluebird.com",
-        "imageFile":"chamber/images/blue-bird.png",
+        "imageFile":"images/blue-bird.png",
         "membership":"silver"
     },
     {
@@ -41,7 +41,7 @@
         "phoneNumber":"208-555-6374",
         "email":"demo@bandplaw.com",
         "websiteURL":"www.bandplaw.com",
-        "imageFile":"chamber/images/burchett.png",
+        "imageFile":"images/burchett.png",
         "membership":"gold"
     },
     {
@@ -50,7 +50,7 @@
         "phoneNumber":"208-555-6683",
         "email":"demo@kellerproperty.com",
         "websiteURL":"www.kellerproperty.com",
-        "imageFile":"chamber/images/keller.png",
+        "imageFile":"images/keller.png",
         "membership":"bronze"
     },
     {
@@ -59,7 +59,7 @@
         "phoneNumber":"208-555-1486",
         "email":"demo@oneheart.org",
         "websiteURL":"www.oneheart.org",
-        "imageFile":"chamber/images/one-heart.png",
+        "imageFile":"images/one-heart.png",
         "membership":"NP"
     },
     {
@@ -68,7 +68,7 @@
         "phoneNumber":"208-555-3251",
         "email":"demo@rentcar.com",
         "websiteURL":"www.rentcar.com",
-        "imageFile":"chamber/images/rent-car.png",
+        "imageFile":"images/rent-car.png",
         "membership":"bronze"
     },
     {
@@ -77,7 +77,7 @@
         "phoneNumber":"208-555-5213",
         "email":"demo@smilephotography.com",
         "websiteURL":"www.smilephotography.com",
-        "imageFile":"chamber/images/smile.png",
+        "imageFile":"images/smile.png",
         "membership":"silver"
     }
 ]
