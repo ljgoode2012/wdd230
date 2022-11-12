@@ -152,6 +152,8 @@
     .cards-list{
         max-width: 900px;
         margin: auto;
+        display: flex;
+        flex-direction: column;
     }
     .cards-list section{
         display:flex;
