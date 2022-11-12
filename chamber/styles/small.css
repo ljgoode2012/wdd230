@@ -79,6 +79,7 @@ nav ul.open {
 }
 header section h1 {
     font-size: 1rem;
+    padding: 0;
 }
 header section h2 {
     font-size: .75rem;
@@ -306,6 +307,9 @@ figcaption {
 
 /*Directory*/
 
+.toggle-buttons iconify-icon{
+    padding: .5rem;
+}
 .cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -322,12 +326,26 @@ figcaption {
 .cards-grid img {
     max-width: 300px;
 }
-.cards-list section{
+.name-display{
+    display: none;
+}
+.cards-list{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+.cards-list section:nth-child(even) {
+    background-color: #E0DEE3;
 }
 .cards-list img {
     display: none;
+}
+.wireframe {
+    background-color: #033B4F;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 0;
+}
+.wireframe a {
+    color: white;
 }
 

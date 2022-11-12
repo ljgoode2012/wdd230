@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 </head>
 <body>
     <header>
@@ -35,19 +37,23 @@
         </div>
         <nav>
             <ul id="primaryNav">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="#">Directory</a></li>
+                <li class="active"><a href="#directory.html">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <h3 class="date"></h3>
     </header>
-    <main>
+    <main class="directory">
         <h1>Business Directory</h1>
-        <div class="cards cards-list"></div>
-        <p>Wireframe:<a href="https://wireframe.cc/dI3TpN">https://wireframe.cc/dI3TpN</a></p>
+        <div class="toggle-buttons">
+            <iconify-icon icon="ci:grid" width="40" id="grid-button"></iconify-icon>
+            <iconify-icon icon="clarity:view-list-line" width="40" id="list-button"></iconify-icon>
+        </div>
+        <div class="cards cards-grid"></div>
+        <p class="wireframe">Wireframe: <a href="https://wireframe.cc/dI3TpN">https://wireframe.cc/dI3TpN</a></p>
     </main>
     <footer>
         <div class="footerflex">

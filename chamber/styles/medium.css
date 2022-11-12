@@ -144,9 +144,21 @@
     }
 
     /*Directory*/
-    .cards {
+    .cards-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        padding: 1rem;
+    }
+    .cards-list{
+        max-width: 900px;
+        margin: auto;
+    }
+    .cards-list section{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .cards-list section p, a {
         padding: 1rem;
     }
 
