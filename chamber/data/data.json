@@ -6,7 +6,7 @@
         "email":"demo@liyascookies.com",
         "websiteURL":"www.liyascookies.com",
         "imageFile":"images/cookies.png",
-        "membership":"gold"
+        "membership":"Gold"
     },
     {
         "name":"Cura Mechanics",
@@ -15,7 +15,7 @@
         "email":"demo@curamechanics.com",
         "websiteURL":"www.cura.com",
         "imageFile":"images/mechanics.png",
-        "membership":"gold"
+        "membership":"Gold"
     },
     {
         "name":"Hummingbird Sports",
@@ -24,7 +24,7 @@
         "email":"demo@hummingbird.com",
         "websiteURL":"www.hummingbird.com",
         "imageFile":"images/sports-outlet.png",
-        "membership":"gold"
+        "membership":"Gold"
     },
     {
         "name":"Blue.Bird Solutions",
@@ -33,7 +33,7 @@
         "email":"demo@bluebird.com",
         "websiteURL":"www.bluebird.com",
         "imageFile":"images/blue-bird.png",
-        "membership":"silver"
+        "membership":"Silver"
     },
     {
         "name":"Burchett and Pryor Law Firm",
@@ -42,7 +42,7 @@
         "email":"demo@bandplaw.com",
         "websiteURL":"www.bandplaw.com",
         "imageFile":"images/burchett.png",
-        "membership":"gold"
+        "membership":"Gold"
     },
     {
         "name":"Keller Property Management",
@@ -51,7 +51,7 @@
         "email":"demo@kellerproperty.com",
         "websiteURL":"www.kellerproperty.com",
         "imageFile":"images/keller.png",
-        "membership":"bronze"
+        "membership":"Bronze"
     },
     {
         "name":"One Heart Foundation",
@@ -69,7 +69,7 @@
         "email":"demo@rentcar.com",
         "websiteURL":"www.rentcar.com",
         "imageFile":"images/rent-car.png",
-        "membership":"bronze"
+        "membership":"Bronze"
     },
     {
         "name":"Smile Photography",
@@ -78,6 +78,6 @@
         "email":"demo@smilephotography.com",
         "websiteURL":"www.smilephotography.com",
         "imageFile":"images/smile.png",
-        "membership":"silver"
+        "membership":"Silver"
     }
 ]

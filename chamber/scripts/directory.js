@@ -18,8 +18,8 @@ function displayCompanyCards (company) {
     let address = document.createElement('p');
     let phoneNumber = document.createElement('p');
     let website = document.createElement('a');
+    let membership = document.createElement("p");
 
-    
     logo.setAttribute("src", `${company.imageFile}`)
     logo.setAttribute("style", "width:100%")
     logo.setAttribute("alt", `${company.name} logo`)
@@ -28,14 +28,19 @@ function displayCompanyCards (company) {
     address.textContent = company.address
     phoneNumber.textContent = company.phoneNumber
     website.textContent = company.websiteURL
+    membership.textContent = `Membership: ${company.membership}`
 
     card.append(logo)
     card.append(address)
     card.append(phoneNumber)
     card.append(website)
+    card.append(membership)
 
     cards.appendChild(card)
 }
+
+
+
 
 
 
