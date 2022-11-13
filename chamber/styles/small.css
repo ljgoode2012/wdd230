@@ -267,6 +267,7 @@ footer p:last-of-type {
 h1 {
     background-color: #FDB887;
     padding: 1.5rem;
+    line-height: 2rem;
 }
 @media only screen and (max-width: 32.5em) {
     .JoinSection {
@@ -349,3 +350,46 @@ figcaption {
     color: white;
 }
 
+/* Join */
+
+form fieldset {
+    margin: 2rem;
+    background-color: #033B4F;
+    color: white;
+    text-align: left;
+}
+legend {
+    font-weight: 600;
+    background-color: #FDB887;
+    color: black;
+    padding: 1rem;
+    border-radius: 5px;
+}
+form label.top {
+    padding: 1rem;
+}
+form label.top input, textarea {
+    padding: .75rem;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 20rem;
+}
+form .sbs {
+    display: flex;
+    padding: .5rem;
+}
+.sbs input {
+    margin: .5rem;
+}
+.submitBtn {
+    font-weight: 600;
+    background-color: #FDB887;
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+    width: 90%;
+    max-width: 20rem;
+}
+form p {
+    margin: 1.5rem 0 .5rem
+}

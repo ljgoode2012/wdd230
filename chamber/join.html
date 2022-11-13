@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory | Madison Chamber of Commerce</title>
+    <title>Madison Chamber of Commerce</title>
     <meta name="description" content="This is the Madison chamber of commerce homepage. It provides information on events, spotlighted businesses, local business news, and contact information relating to the Madison Chamber of Commerce.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 </head>
 <body>
     <header>
@@ -39,21 +37,57 @@
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li class="active"><a href="#directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="active"><a href="join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <h3 class="date"></h3>
     </header>
-    <main class="directory">
-        <h1>Business Directory</h1>
-        <div class="toggle-buttons">
-            <iconify-icon icon="ci:grid" width="40" id="grid-button"></iconify-icon>
-            <iconify-icon icon="clarity:view-list-line" width="40" id="list-button"></iconify-icon>
-        </div>
-        <div class="cards cards-grid"></div>
-        <p class="wireframe">Wireframe: <a href="https://wireframe.cc/dI3TpN">https://wireframe.cc/dI3TpN</a></p>
+    <main>
+        <h1>Join the Madison Chamber of Commerce</h1>
+        <form name="my-form" action="thankyou.html" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-box">
+                    <label class="top"><div>First Name*:</div><input type="text" name="fname" required></label>
+                </div>
+                <div class="form-box">
+                    <label class="top"><div>Last Name*:</div><input type="text" name="lname" required></label>
+                </div>
+                <div class="form-box">
+                    <label class="top"><div>Job Title:</div><input type="text" name="jobTitle" pattern="[a-zA-Z- ]{7,}"" title="Only letters, hyphens, and spaces permitted"></label>
+                </div>
+                <div class="form-box">
+                    <label class="top"><div>Email:</div><input type="email" name="email"></label>
+                </div>
+                <div class="form-box">
+                    <label class="top"><div>Cell Phone*:</div><input type="tel" name="phone" required></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <div class="form-box">
+                    <label class="top"><div>Company Name:</div><textarea name="companyName"></textarea></label>
+                </div>
+                <div class="form-box">
+                    <p>Please select a level of Membership:</p>
+                    <label class="sbs"><input type="radio" name="membership" value="Bronze"><div>Bronze</div></label>
+                    <label class="sbs"><input type="radio" name="membership" value="Silver"><div>Silver</div></label>
+                    <label class="sbs"><input type="radio" name="membership" value="Gold"><div>Gold</div></label>
+                    <label class="sbs"><input type="radio" name="membership" value="NP"><div>NP - nonprofit</div></label>
+                </div>
+                <div class="form-box">
+                    <label class="top"><div>Business Description:</div><textarea name="businessDescription"></textarea></label>
+                </div>
+            </fieldset>
+            <div>
+                <input type="hidden" id="dateStamp" name="date" value="CurrentDate"> 
+                <input type="hidden" id="timeStamp" name="time" value="CurrentTime">
+            </div>
+            <input type="submit" value="Join the Chamber" class="submitBtn">
+        </form>
+
     </main>
     <footer>
         <div class="footerflex">
@@ -68,9 +102,10 @@
             <p>&copy; <span class="copyright"></span> Madison Chamber of Commerce</p>
             <p><a href="https://ljgoode2012.github.io/wdd230/lesson3/">Site Map</a></p>
             <p>Lindsey Goode | WDD 230 Project | <span class="lastMod"></span></p>
+            
         </div>
     </footer>
     <script src="scripts/scripts.js"></script>
-    <script src="scripts/directory.js"></script>
+    <script src="scripts/join.js"></script>
 </body>
 </html>
