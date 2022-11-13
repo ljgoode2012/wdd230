@@ -164,4 +164,9 @@
         padding: 1rem;
     }
 
+    /* Join */
+    form label.top input, textarea {
+        display: block;
+    }
+
 }

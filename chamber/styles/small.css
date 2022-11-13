@@ -366,7 +366,7 @@ legend {
     border-radius: 5px;
 }
 form label.top {
-    padding: 1rem;
+    margin:1rem;
 }
 form label.top input, textarea {
     padding: .75rem;
@@ -389,7 +389,11 @@ form .sbs {
     border-radius: 2rem;
     width: 90%;
     max-width: 20rem;
+    margin: 1rem;
 }
 form p {
     margin: 1.5rem 0 .5rem
+}
+.businessDescription {
+    margin-top: 1rem;
 }
