@@ -110,7 +110,7 @@ img{
 }
 .hero-msg {
     background-color: rgb(253, 184, 135, .9);
-    padding: 1rem;
+    padding: 1.5rem;
     max-width: 60%;
     max-height: 75%;
     grid-row: 1/2;

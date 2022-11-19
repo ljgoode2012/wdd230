@@ -1,13 +1,13 @@
 @media (min-width:64em) {
     body {
         font-size: 22px;
-        max-width: 1600px;
+        max-width: 1900px;
     }
     header {
         grid-template-rows: 1fr ;
     }
     .home-main {
-        max-width: 1300px;
+        max-width: 1600px;
         margin: auto;
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
@@ -35,6 +35,7 @@
     .hero-msg {
         grid-row: 2/3;
         margin-top: 8px;
+        box-shadow: 0 0 15px black;
         
     }
     .hero button {
