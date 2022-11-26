@@ -215,6 +215,11 @@ img{
 .news {
     margin-bottom: 60px;
 }
+.news ul {
+    font-style: italic;
+    list-style: none;
+    padding: none;
+}
 .spotlights {
     margin-bottom: 50px;
 }
@@ -222,19 +227,14 @@ img{
     margin: 0 auto 1rem;
     max-width: 80%;
     box-shadow: 0 0 20px black;
-    padding: .5rem;
+    padding: 1rem;
 }
-.spotlight2 {
-    margin: 0 auto 1rem;
-    max-width: 80%;
-    box-shadow: 0 0 20px black;
-    padding: .5rem;
-}
-.spotlights h2 {
-    margin: -.5rem
+.company-name {
+    margin: -1rem
 }
 .spotlight1 img, .spotlight2 img{
-    margin-top: 16px;
+    margin-top: 2rem;
+    
 }
 footer {
     background-color: #CCE1CF;

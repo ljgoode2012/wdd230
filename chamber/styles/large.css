@@ -68,17 +68,14 @@
         display: block;
         font-size: .9rem;
     }
-    .spotlights img {
-        width: 50%;
-    }
     .spotlight3 {
-        margin: 1rem;
+        margin: 0 auto 1rem;
         max-width: 80%;
         box-shadow: 0 0 20px black;
-        padding: .5rem;
+        padding: 1rem;
     }
     .spotlight3 img {
-        margin-top: 16px;
+        margin-top: 2rem;
     }
     nav ul li a {
         padding: .5rem 1rem;
