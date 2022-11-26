@@ -10,7 +10,7 @@
         max-width: 1600px;
         margin: auto;
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: auto 1fr auto;
+        grid-template-rows: minmax(auto, 570px) 1fr auto;
     }
     .event {
         grid-column: 1/2;
@@ -19,43 +19,45 @@
     }
     .hero {
         grid-column: 2/3;
-        grid-row: 1/3;
-        margin-top: 1rem;
+        grid-row: 1/2;
         grid-template-rows: 1fr 1fr;
-        
+        margin-top: 1rem;
     }
     .hero picture {
-        grid-row: 1/2;
-        z-index: 0;
-        box-shadow: 0 0 30px white;
+        grid-row: 1/3;
     }
     .hero-msg {
-        grid-row: 1/2;
-        box-shadow: 0 0 15px black;
-        z-index: 1;
-        
-    }
-    .hero button {
-        box-shadow: 0px 0px 15px black;
+        margin-top: 10%;
     }
     .weather {
         grid-column: 1/2;
         grid-row: 2/3;
         margin: 1rem;
-        width: auto;
     }
     .JoinSection {
         grid-column: 1/2;
         grid-row: 3/4;
-        margin-top: 30px;
-        background-color: white;
+        margin: 1rem;
+        background-color: #FDB887;
+        padding: 1rem;
+        box-shadow: 0 0 20px black;
+    }
+    .JoinSection button{
+        width: 80%;
+    }
+    .event img {
+        margin: auto;
     }
     .news {
         grid-column: 2/3;
-        grid-row: 3/4;
+        grid-row: 2/4;
+        margin: 1rem;
     }
-    .news h3 {
-        margin-top: 30px;
+    .news h2 {
+        margin-top: 0;
+    }
+    .news p {
+        padding: 0 2rem;
     }
     .spotlights {
         grid-column: 3/4;
@@ -63,6 +65,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        display: block;
         font-size: .9rem;
     }
     .spotlights img {
@@ -73,12 +76,6 @@
         max-width: 80%;
         box-shadow: 0 0 20px black;
         padding: .5rem;
-    }
-    .spotlight3 h4 {
-        background-color: #FDB887;
-        font-size: 1.8rem;
-        padding: 1rem;
-        margin: -.5rem
     }
     .spotlight3 img {
         margin-top: 16px;
