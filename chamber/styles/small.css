@@ -301,6 +301,7 @@ figcaption {
 .cards-grid img {
     max-width: 300px;
 }
+
 .name-display{
     display: none;
 }
@@ -331,6 +332,7 @@ form fieldset {
     background-color: #033B4F;
     color: white;
     text-align: left;
+    padding: 1rem;
 }
 legend {
     font-weight: 600;
@@ -346,7 +348,7 @@ form label.top input, textarea {
     padding: .75rem;
     border-radius: 5px;
     width: 90%;
-    max-width: 20rem;
+    max-width: 25rem;
 }
 form .sbs {
     display: flex;
@@ -368,6 +370,6 @@ form .sbs {
 form p {
     margin: 1.5rem 0 .5rem
 }
-.businessDescription {
+form div {
     margin-top: 1rem;
 }

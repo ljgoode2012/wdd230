@@ -151,6 +151,9 @@
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         padding: 1rem;
     }
+    .cards-grid section a {
+        font-size: 1rem;
+    }
     .cards-list{
         max-width: 900px;
         margin: auto;
@@ -170,6 +173,10 @@
     
     form label.top input, textarea {
         display: block;
+    }
+    form {
+        max-width: 60%;
+        margin: auto;
     }
 
 }

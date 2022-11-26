@@ -83,11 +83,11 @@
     .spotlight3 img {
         margin-top: 16px;
     }
-   nav ul li a {
-    padding: .5rem 1rem;
-   }
-   #hamburgerBtn {
-    display: none;
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+    #hamburgerBtn {
+        display: none;
     }
     nav #primaryNav {
         display: flex;
