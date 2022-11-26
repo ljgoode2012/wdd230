@@ -361,7 +361,7 @@ form label.top input, textarea {
 }
 form .sbs {
     display: flex;
-    padding: .5rem;
+    padding: .5rem .5rem 0 .5rem;
 }
 .sbs input {
     margin: .5rem;
@@ -381,4 +381,10 @@ form p {
 }
 form div {
     margin-top: 1rem;
+}
+.tierDescription {
+    font-size: .8rem;;
+    margin: 0 0 1rem 0;
+    padding-left: 1.8rem;
+    max-width: 25rem;
 }

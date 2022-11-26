@@ -197,5 +197,8 @@
         max-width: 60%;
         margin: auto;
     }
+    .tierDescription {
+        font-size: .9rem;
+    }
 
 }

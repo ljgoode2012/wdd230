@@ -97,4 +97,7 @@
     header p {
         margin: 1rem;
     }
+    .tierDescription {
+        font-size: 1rem;
+    }
 }
