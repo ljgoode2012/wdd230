@@ -1,4 +1,4 @@
-const url = "https://api.openweathermap.org/data/2.5/weather?lat=41.6662&lon=81.3396&units=imperial&appid=e2e30e7d15e743523fc54c1bbdfcb1be";
+const weatherURL = "https://api.openweathermap.org/data/2.5/weather?lat=41.6662&lon=81.3396&units=imperial&appid=e2e30e7d15e743523fc54c1bbdfcb1be";
 temperatureEl = document.querySelector("#temp")
 conditionEl = document.querySelector("#condition")
 wSpeedEl = document.querySelector("#wSpeed")
@@ -9,10 +9,9 @@ weatherFetch()
 
 async function weatherFetch() {
     try {
-        const response = await fetch(url)
+        const response = await fetch(weatherURL)
         if (response.ok) {
             const data = await response.json();
-            console.log(data)
             array = pullResults(data);
             setElements(array);
 

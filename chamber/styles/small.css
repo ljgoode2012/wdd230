@@ -78,6 +78,12 @@ nav ul.open {
     margin: 0;
     padding: 0;
 }
+header h1{
+    font-size: 1.5rem;
+}
+header h2 {
+    font-size: 1rem;
+}
 header section {
     align-self: center;
     grid-column: 2/3;
@@ -286,11 +292,12 @@ figcaption {
 
 .toggle-buttons iconify-icon{
     padding: .5rem;
+    cursor: pointer;
 }
 .cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    padding: 1rem;
+    padding: 0 1rem 1rem;
     justify-items: center;
     font-weight: 500;
 }

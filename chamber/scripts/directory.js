@@ -1,4 +1,4 @@
-const url = "https://ljgoode2012.github.io/wdd230/chamber/data/data.json"
+let url = "https://ljgoode2012.github.io/wdd230/chamber/data/data.json"
 
 const companies = fetchJSON(url)
 console.log(companies)
@@ -42,6 +42,8 @@ function displayCompanyCards (company) {
 
     cards.appendChild(card)
 }
+
+// grid/list toggle buttons ----------------
 
 const gridButton = document.querySelector("#grid-button")
 const listButton = document.querySelector("#list-button")
