@@ -34,7 +34,7 @@ function setElements(array) {
     wSpeedEl.textContent = array[1]
     wChillEl.textContent = array[2]
     conditionEl.textContent = array[3]
-    iconEl.setAttribute("src", `http://openweathermap.org/img/wn/${array[4]}@2x.png`)
+    iconEl.setAttribute("src", `https://openweathermap.org/img/wn/${array[4]}@2x.png`)
     iconEl.alt = array[3]
 }
 
