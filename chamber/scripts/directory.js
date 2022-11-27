@@ -1,6 +1,6 @@
-let url = "https://ljgoode2012.github.io/wdd230/chamber/data/data.json"
+let dataUrl = "https://ljgoode2012.github.io/wdd230/chamber/data/data.json"
 
-const companies = fetchJSON(url)
+const companies = fetchJSON(dataUrl)
 console.log(companies)
 
 

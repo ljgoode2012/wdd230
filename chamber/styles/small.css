@@ -4,7 +4,6 @@ body {
     font-family: Quicksand, "Open Sans", sans-serif;
     margin: 0 auto;
     line-height: 1.5rem;
-    align-items: center;
     text-align: center;
 }
 #banner {
@@ -83,6 +82,7 @@ header h1{
 }
 header h2 {
     font-size: 1rem;
+    color: black;
 }
 header section {
     align-self: center;
@@ -103,7 +103,8 @@ h1 {
     line-height: 2rem;
 }
 h2{
-    background-color: #FDB887;
+    background-color: #033B4F;
+    color: white;
     font-size: 1.8rem;
     padding: 1rem;
     margin: .5rem 0;
@@ -221,20 +222,19 @@ img{
     padding: none;
 }
 .spotlights {
-    margin-bottom: 50px;
-}
-.spotlight1, .spotlight2 {
-    margin: 0 auto 1rem;
-    max-width: 80%;
     box-shadow: 0 0 20px black;
-    padding: 1rem;
+    padding-bottom: 1rem;
+    margin: 2.5rem 2rem;
 }
-.company-name {
-    margin: -1rem
-}
-.spotlight1 img, .spotlight2 img{
-    margin-top: 2rem;
+.spotlights img{
+    max-width: 90%;
     
+}
+.spotlights h2 {
+    margin-top: -1rem;
+}
+.JoinSection{
+    display: none;
 }
 footer {
     background-color: #CCE1CF;
@@ -301,14 +301,20 @@ figcaption {
     justify-items: center;
     font-weight: 500;
 }
+.cards-grid p:nth-child(1) {
+    background-color: #033B4F;
+    color: white;
+    padding: 1rem;
+    margin-top: -.5rem;
+}
 .cards-grid section {
     box-shadow: 0px 0px 10px black;
-    padding: 1.5rem;
     max-width: 350px;
     margin: 1rem;
 }
 .cards-grid img {
     max-width: 300px;
+    margin: 1rem;
 }
 
 .name-display{
@@ -375,6 +381,7 @@ form .sbs {
     width: 90%;
     max-width: 20rem;
     margin: 1rem;
+    cursor: pointer;
 }
 form p {
     margin: 1.5rem 0 .5rem
@@ -387,4 +394,29 @@ form div {
     margin: 0 0 1rem 0;
     padding-left: 1.8rem;
     max-width: 25rem;
+}
+
+/*---------------Contact Us---------------*/
+
+.contact form {
+    box-shadow: 0px 0px 10px black;
+    margin: 2rem auto;
+    max-width: 90%;
+}
+.contact form fieldset{
+    margin: 0;
+    border: none;
+}
+.contact h2 {
+    margin: 0;
+}
+.email {
+    font-style: italic;
+}
+.contact figcaption {
+    font-size: .75rem;
+    margin-bottom: 2rem;
+}
+.contact figure {
+    margin: 0;
 }

@@ -28,9 +28,6 @@
     .news {
         margin-bottom: 2rem;
     }
-    .spotlights {
-        margin-bottom: 2rem;
-    }
     .home-main {
         display: grid;
         grid-template-columns: 66% 33%;
@@ -46,19 +43,18 @@
         grid-column: 1/3;
         margin-bottom: 2rem;
     }
-    .spotlights {
+    .spotlightContainer {
         grid-row: 3/4;
         grid-column: 1/3;
         display: flex;
         flex-direction: row;
-    }
-    .spotlight1, .spotlight2 {
-        margin: 1rem;
+        justify-content: space-between;
     }
     .JoinSection {
         grid-row: 4/5;
         grid-column: 1/3;
         background-color: #CCE1CF;
+        display: block;
     }
     .JoinSection a {
         background-color: #033B4F;

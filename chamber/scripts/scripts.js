@@ -81,4 +81,4 @@ function fillContent(company, element) {
 
 // run code --------------
 
-const companies = fetchJSON(url)
+fetchJSON(url)

@@ -20,7 +20,7 @@ async function weatherFetch() {
 }
 
 function pullResults(weatherData) {
-    let temperature = weatherData.main.temp
+    let temperature = Math.round(weatherData.main.temp)
     let wSpeed = weatherData.wind.speed
     let wChillResult = calWindchill(temperature, wSpeed)
     let condition = capitalize(weatherData.weather[0].description);

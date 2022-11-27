@@ -35,72 +35,60 @@
         </div>
         <nav>
             <ul id="primaryNav">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li ><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <h3 class="date"></h3>
     </header>
-    <main class="home-main">
-        <div class="hero">
-            <picture>
-                <source media="(max-width: 600px)" srcset="images/downtowndistrict600.webp" >
-                <source media="(max-width: 1020px)" srcset="images/downtowndistrict1024.webp" >
-                <source media="(min-width: 1021px)" srcset="images/downtowndistrict1900.webp" >
-                <img src="images/downtowndistrict.webp" alt="hero-image">
-            </picture>
-            <section class="hero-msg">
-                <h4>Welcome to Madison</h4>
-                <div class="button-box">
-                    <a href="join.html">Join the Chamber</a>
+    <main class="contact">
+        <h1>Contact Us</h1>
+        <figure>
+            <img src="images/chamberPic.webp" alt="Chamber of Commerce building">
+            <figcaption>Chamber of Commerce on Main Street</figcaption>
+        </figure>
+        <section>
+            <h2>Points of Contact</h2>
+            <h3>Membership</h3>
+            <p>For questions about joining the Chamber or about member benefits:</p>
+            <p class="email">directorofmembership@demochamber.com</p>
+            <h3>Business Development</h3>
+            <p>For questions about analytics, consultations, and training:</p>
+            <p class="email">businessdevelopment@demochamber.com</p>
+            <h3>Media Inquiries</h3>
+            <p>For questions about social media outreach and news releases:</p>
+            <p class="email">directorofmedia@demochamber.com</p>
+        </section>
+        <form>
+            <h2>Send Us Your Questions or Comments</h2>
+            <Fieldset>
+                <div>
+                    <label class="top"><span>First Name*:</span><input type="text" name="fname" required></label>
                 </div>
-            </section>
-        </div>
-        <div class="event">
-            <h2>Events</h2>
-            <img src="images/tree-festival.webp" alt="Christmas tree festival flyer">
-        </div>
-        <div class="weather">
-            <h2>Weather</h2>
-            <div>
-                <img id="icon" src="images/placeholder.png" alt="">
-                <p><span id="temp"></span>&#176;</p>
-            </div>
-            <h3 id="condition"></h3>
-            <p>Wind Speed: <span id="wSpeed"></span>mph<br>Wind Chill: <span id="wChill"></span></p>
-        </div>
-        <div class="news">
-            <h2>News Release</h2>
-            <h3>Liya's Cookies Grand Opening!</h3>
-            <p>Welcome Liya's Cookies to the Madison Community! They opened their doors on Monday November 14th to an eager crowd ready for their first try of Liya's unique, delicious flavors. A madison resident, born and raised, Liya has refined her cookie recipies over the years and served them at various city events over the years. Now you can grab a mouthwatering cookie whenever the craving hits at 987 Sweet Ln!</p>
-            <h3>2022 Scholarship Award Recipients!</h3>
-            <p>We'd like to announce this years recipients of the annual Scholarship Award!</p>
-            <ul>
-                <li>Blanche Evans - BJHS</li>
-                <li>Claudia Ruiz - JCHS</li>
-                <li>Jerome Lamb - JCHS</li>
-                <li>Mark Turner - BJHS</li>
-                <li>Joy Kim - BJHS</li>
-            </ul>
-            <p>Congratulations to these hard working students! Each student will recieve a $1000 award.</p>
-        </div>
-        <div class="spotlightContainer">
-            <section class="spotlight1 spotlights">
-            </section>
-            <section class="spotlight2 spotlights">
-            </section>
-            <section class="spotlight3 spotlights">
-            </section>
-        </div>
-        <div class="JoinSection">
-            <div class="button-box">
-                <a href="join.html">Join Us!</a>
-            </div>
-            <p> Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-        </div>
+                <div>
+                    <label class="top"><span>Last Name*:</span><input type="text" name="lname" required></label>
+                </div>
+                <div>
+                    <label class="top"><span>Email*:</span><input type="email" name="email" required></label>
+                </div>
+                <div>
+                    <label class="top"><span>Company Name:</span><input type="text" name="companyName"></label>
+                </div>
+                <div>
+                    <p>Are you a member of the Chamber?*</p>
+                    <label class="sbs"><input type="radio" name="membershipStatus" value="Yes" required><span>Yes</span></label>
+                    <label class="sbs"><input type="radio" name="membershipStatus" value="No"><span>No</span></label>
+                    <label class="sbs"><input type="radio" name="membershipStatus" value="IDK"><span>I don't know</span></label>
+                </div>
+                <div class="userQuestion">
+                    <label class="top"><span>Questions/Comments*:</span><textarea name="userQuestion"></textarea></label>
+                </div>
+                <input type="submit" value="Send Question" class="submitBtn">
+            </Fieldset>
+        </form>
     </main>
     <footer>
         <div class="footerflex">
@@ -119,6 +107,5 @@
         </div>
     </footer>
     <script src="scripts/scripts.js"></script>
-    <script src="scripts/windchill.js"></script>
 </body>
 </html>
