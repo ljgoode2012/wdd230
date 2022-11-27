@@ -115,7 +115,7 @@
     .contact h2{
         padding-left: 4rem;
     }
-    .contact h3, p {
+    .contact h3, .contact p {
         padding-left: 4rem;
     }
     .contact form {
@@ -125,5 +125,8 @@
     .contact img:hover {
         margin: 0 1rem;
         box-shadow: 0 0 30px black;
+    }
+    .contact form p {
+        padding: 1rem;
     }
 }
