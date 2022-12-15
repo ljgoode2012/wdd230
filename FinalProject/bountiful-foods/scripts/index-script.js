@@ -62,7 +62,6 @@ function capitalize(string) {
 fetchForecast()
 
 let forecastDays = getDays()
-console.log(forecastDays)
 const day1El = document.querySelector("#day1Name")
 const day2El = document.querySelector("#day2Name")
 const day3El = document.querySelector("#day3Name")
@@ -76,7 +75,6 @@ async function fetchForecast() {
         const response = await fetch(forecastURL)
         if (response.ok) {
             const data = await response.json();
-            console.log(data)
             let array = listForecast(data);
             displayForecast(array);
 
@@ -105,7 +103,6 @@ function getDays() {
     let date = new Date
     let day = date.getDay()
     let currentDay = (day + 1) % 7
-    console.log(currentDay)
     let day1 = getNextDay(currentDay)
     let day2 = getNextDay(day1)
     let day3 = getNextDay(day2)
@@ -117,8 +114,7 @@ function getNextDay(day) {
     return nextDay
 }
 
-function displayDay(array, number, element) {
-    console.log(array[(number-1)])    
+function displayDay(array, number, element) {    
     switch (array[(number-1)]) {
         case 1:
             element.textContent = "Sunday";

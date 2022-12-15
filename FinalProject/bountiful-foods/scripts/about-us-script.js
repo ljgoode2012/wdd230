@@ -12,5 +12,5 @@ function initMap() {
   
   window.initMap = initMap;
 
-// Google wanted credit card information inorder to have access to their free trial to get to their maps api.
+// Google wanted credit card information in order to have access to their free trial to get to their maps api.
 //I didnt want to risk getting charged for it.
