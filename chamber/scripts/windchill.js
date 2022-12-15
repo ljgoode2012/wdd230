@@ -1,9 +1,9 @@
 const weatherURL = "https://api.openweathermap.org/data/2.5/weather?lat=41.6662&lon=81.3396&units=imperial&appid=e2e30e7d15e743523fc54c1bbdfcb1be";
-temperatureEl = document.querySelector("#temp")
-conditionEl = document.querySelector("#condition")
-wSpeedEl = document.querySelector("#wSpeed")
-wChillEl = document.querySelector("#wChill")
-iconEl = document.querySelector("#icon")
+const temperatureEl = document.querySelector("#temp")
+const conditionEl = document.querySelector("#condition")
+const wSpeedEl = document.querySelector("#wSpeed")
+const wChillEl = document.querySelector("#wChill")
+const iconEl = document.querySelector("#icon")
 
 weatherFetch()
 

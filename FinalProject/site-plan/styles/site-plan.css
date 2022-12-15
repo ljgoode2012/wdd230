@@ -1,0 +1,107 @@
+body{
+    font-size: 16px;
+    text-align: center;
+}
+header{
+    font-size: 36px;
+}
+main{
+    max-width: 75%;
+    margin: auto;
+}
+h1, h2, h3{
+    font-family: "Montserrat Alternates", Arial, sans-serif;
+    margin-top: 1rem;
+}
+h1{
+    margin-top: 3rem;
+}
+p{
+    font-family: Inter;
+}
+hr {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(224,13,17,0), rgba(224,13,17,.75), rgba(224,13,17,0));
+}
+#logo {
+    max-width: 250px;
+}
+ul {
+    list-style: none;
+    font-family: inter;
+}
+.persona-card {
+    border: 5px solid #93c754;
+    max-width: 60%;
+    margin: 2rem auto;
+    background-color: #F5F5F5;
+}
+.card-img {
+    margin: 1rem;
+    max-width: 80%;
+}
+table  {
+    font-size: 1.5rem;
+}
+td {
+    padding: 1rem;
+    
+}
+table {
+    margin: 2rem auto;
+    max-width: 100%;
+    overflow-x: auto;
+    font-family: "Montserrat Alternates";
+    border-collapse: collapse;
+}
+#color-table{
+    overflow-x: auto;
+}
+.heading1 {
+    font-size: 30px;
+}
+.heading2 {
+    font-size: 25px;
+}
+.heading3 {
+    font-size: 20px;
+}
+.paragraphText {
+    font-family: Inter;
+    font-size: 16px;
+    background-color: #F5F5F5;
+}
+.action {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+}
+.accent1, .accent2 {
+    font-family: Inter;
+    font-size: 16px;
+}
+#sample4 {
+    background-color: #fdf5a0;
+    border: 3px solid #f6b616;
+}
+#sample5 {
+    background-color: #e00d11;
+
+}
+#sample6 {
+    background-color: #93c754;
+}
+.wireframe-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+.small {
+    grid-column: 1/2;
+}
+.medium {
+    grid-column: 2/3;
+}
+.large {
+    grid-column: 3/4;
+}

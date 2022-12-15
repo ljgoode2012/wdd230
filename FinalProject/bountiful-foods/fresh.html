@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <meta name="description" content="Welcome to Bountiful Foods! We provide nothing but the best of fresh organic produce supplied from 
+    wholesome, local farmers. You can trust you are getting quality farm fresh produce and even refreshing smoothies at your convenience.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat+Alternates:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <!-- <link rel="stylesheet" href="styles/medium.css"> -->
+    <!-- <link rel="stylesheet" href="styles/large.css"> -->
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/bountiful-foods-logo.svg" alt="Bountiful Foods Logo" height="150"></a>
+        <h1>Bountiful Foods</h1>
+        <button id="hamburgerBtn">&#9776;</button>
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="fresh.html">Fresh</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Create Your Own Drink</h1>
+        <form name="my-form" onsubmit="displayResults(); return false;">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                    <label><span>First Name*:</span><input type="text" name="fname" id="fname" required></label>
+                </div>
+                <div>
+                    <label><span>Email*:</span><input type="email" name="email" id="email" required></label>
+                </div>
+                <div>
+                    <label><span>Cell Phone*:</span><input type="tel" name="phone" id="phone" required></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Fruit Selection</legend>
+                <p>Please Select 3 Fruits for your drink.</p>
+                <label for="fruit1">Fruit 1*:</label>
+                <select name="fruit1" id="fruit1" required>
+                    <option value="" disabled selected hidden>Select a fruit...</option>
+                </select>
+                <label for="fruit2">Fruit 2*:</label>
+                <select name="fruit2" id="fruit2" required>
+                    <option value="" disabled selected hidden>Select a fruit...</option>
+                </select>
+                <label for="fruit3">Fruit 3*:</label>
+                <select name="fruit3" id="fruit3" required>
+                    <option value="" disabled selected hidden>Select a fruit...</option>
+                </select>
+                <label>Additional Instructions (optional):<textarea></textarea></label>
+            </fieldset>
+            <input type="submit" value="Order Drink" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <p>Questions? Please reach out to us at (555) 555-5555</p>
+        <a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1216437,-117.3578425,12z/data=!3m1!4b1!4m5!3m4!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939?hl=en&authuser=0"><img src="images/google-maps-icon.png" alt="Google Maps Location Icon"></a>
+        <div>
+            <p>Bountiful Foods</p>
+            <p>123 Appletree Ln</p>
+            <p>Carlsbad, CA 92009</p>
+        </div>
+        <div>
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook icon"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="instagram icon"></a>
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter icon"></a>
+        </div>
+        <p>&copy; <span class="year"></span> Bountiful Foods</p>
+        <p>Lindsey Goode | WDD230 | <span class="lastMod"></span></p>
+    </footer>
+    <script src="scripts/fresh-script.js"></script>
+</body>
+</html>
