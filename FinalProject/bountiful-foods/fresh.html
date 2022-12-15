@@ -11,14 +11,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat+Alternates:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/small.css">
-    <!-- <link rel="stylesheet" href="styles/medium.css"> -->
-    <!-- <link rel="stylesheet" href="styles/large.css"> -->
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="images/bountiful-foods-logo.svg" alt="Bountiful Foods Logo" height="150"></a>
-        <h1>Bountiful Foods</h1>
-        <button id="hamburgerBtn">&#9776;</button>
+        <div class="header">
+            <a href="index.html"><img src="images/bountiful-foods-logo.svg" alt="Bountiful Foods Logo" height="150"></a>
+            <h1>Bountiful Foods</h1>
+            <button id="hamburgerBtn">&#9776;</button>
+        </div>
         <nav>
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
@@ -29,6 +31,7 @@
     </header>
     <main>
         <h1>Create Your Own Drink</h1>
+        <hr>
         <form name="my-form" onsubmit="displayResults(); return false;">
             <fieldset>
                 <legend>Personal Information</legend>
@@ -63,21 +66,22 @@
         </form>
     </main>
     <footer>
-        <p>Questions? Please reach out to us at (555) 555-5555</p>
-        <a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1216437,-117.3578425,12z/data=!3m1!4b1!4m5!3m4!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939?hl=en&authuser=0"><img src="images/google-maps-icon.png" alt="Google Maps Location Icon"></a>
-        <div>
+        <p class="questions">Questions? Please reach out to us at (555) 555-5555</p>
+        <a class="google-icon" href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1216437,-117.3578425,12z/data=!3m1!4b1!4m5!3m4!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939?hl=en&authuser=0"><img src="images/google-maps-icon.png" alt="Google Maps Location Icon"></a>
+        <div class="location">
             <p>Bountiful Foods</p>
             <p>123 Appletree Ln</p>
             <p>Carlsbad, CA 92009</p>
         </div>
-        <div>
-            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook icon"></a>
-            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="instagram icon"></a>
-            <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter icon"></a>
+        <div class="social-media">
+            <a class="media-icon" href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook icon"></a>
+            <a class="media-icon" href="https://www.instagram.com"><img src="images/instagram.png" alt="instagram icon"></a>
+            <a class="media-icon" href="https://twitter.com"><img src="images/twitter.png" alt="twitter icon"></a>
         </div>
-        <p>&copy; <span class="year"></span> Bountiful Foods</p>
-        <p>Lindsey Goode | WDD230 | <span class="lastMod"></span></p>
+        <p class="copyright">&copy; <span class="year"></span> Bountiful Foods <a href="attributions.html">| Attributions</a></p>
+        <p class="author">Lindsey Goode | WDD230 | <span class="lastMod"></span></p>
     </footer>
     <script src="scripts/fresh-script.js"></script>
+    <script src="scripts/nav-script.js"></script>
 </body>
 </html>

@@ -1,0 +1,84 @@
+@media (min-width:950px) {
+    
+    #primaryNav{
+        display: flex;
+    }
+    #hamburgerBtn {
+        display: none;
+    }
+    .header {
+        justify-content: flex-start;
+    }
+    .grid-box {
+        display: grid;
+        grid-template-rows: 1fr auto auto;
+    }
+    .city1, .city2, .city3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .city1 img, .city3 img {
+        grid-column: 1/2;
+    }
+    .city1{
+        grid-row: 1/2;
+    }
+    .city2 {
+        grid-row: 2/3;
+
+    }
+    .city3 {
+        grid-row: 3/4;
+    }
+    .city1 section, .city3 section {
+        grid-column: 2/4;
+    }
+    .city2 section {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .city2 img {
+        grid-column: 3/4;
+    }
+    .city section {
+        max-width: 80%;
+        justify-self: center;
+    }
+    .city img {
+        align-self: center;
+    }
+    .weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .today {
+        grid-column: 1/2;
+        width: 80%;
+    }
+    .temp-cards {
+        justify-self: left;
+    }
+/*-------------About Us-------------*/
+
+    .about-us .grid-box {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        margin-bottom: 3rem;
+    }
+    .about-us .grid-box div {
+        grid-column: 1/2;
+    }
+    .about-us .grid-box img{
+        max-width: 85%;
+    }
+    .about-us .grid-box p {
+        grid-column: 2/3;
+        max-height: 70%;
+        align-self: center;
+    }
+
+
+}
+
+
+

@@ -44,6 +44,7 @@ function displayResults() {
 
     const sectionEl = document.createElement("section")
     mainEl.appendChild(sectionEl)
+    sectionEl.setAttribute("class", "fresh-section")
     
     const h2 = document.createElement("h2")
     sectionEl.appendChild(h2)

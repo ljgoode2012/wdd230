@@ -1,13 +1,3 @@
-// Last Modified date and copyright year
-
-const date = new Date();
-const year = date.getFullYear();
-const dynCopyright = document.querySelector(".year");
-dynCopyright.innerHTML = `${year}`;
-
-const timestamp = `Last Updated: ${document.lastModified}`;
-document.querySelector(".lastMod").textContent = timestamp;
-
 // Weather APIs
 const lattitude = 33.16
 const longitude = -117.35
