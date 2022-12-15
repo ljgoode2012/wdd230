@@ -1,5 +1,8 @@
 @media (min-width:950px) {
-    
+    body {
+        max-width: 1600px;
+        font-size: 22px;
+    }
     #primaryNav{
         display: flex;
     }
@@ -46,6 +49,7 @@
     }
     .city img {
         align-self: center;
+        justify-self: center;
     }
     .weather {
         display: grid;
