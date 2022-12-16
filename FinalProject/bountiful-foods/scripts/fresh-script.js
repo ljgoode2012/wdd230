@@ -31,7 +31,6 @@ function generateOption(name, parentElement) {
 //displays input values and nutritional information upon form submission
 
 function displayResults() {
-    console.log("function entered")
     const mainEl = document.querySelector("main")
     let fname = document.querySelector("#fname").value
     let email = document.querySelector("#email").value
@@ -67,14 +66,14 @@ function displayResults() {
     sectionEl.appendChild(fruit1El)
 
     const fruit2El = document.createElement("p")
-    fruit1El.innerHTML = `Choice Number 2: ${fruit2}`
+    fruit2El.innerHTML = `Choice Number 2: ${fruit2}`
     sectionEl.appendChild(fruit2El)
 
     const fruit3El = document.createElement("p")
-    fruit1El.innerHTML = `Choice Number 3: ${fruit3}`
+    fruit3El.innerHTML = `Choice Number 3: ${fruit3}`
     sectionEl.appendChild(fruit3El)
 
-    if (instructions != null) {
+    if (instructions != "") {
         const instructionsEl = document.createElement("p")
         instructionsEl.innerHTML = `Instructions: ${instructions}`
         sectionEl.appendChild(instructionsEl)}
